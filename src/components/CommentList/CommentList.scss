@@ -2,9 +2,9 @@
 .CommentList {
   display: flex;
   flex-direction: column;
-  gap: 0.7em; /* Space between comments */
-  background-color: #eee;
+  gap: 0.7em;
   padding: 1em;
-  border-radius: 8px; /* Adds rounded corners */
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  background-color: #eee;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
 }
