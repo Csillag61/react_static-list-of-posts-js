@@ -1,1 +1,23 @@
 // add styles here
+.CommentList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7em; /* Space between comments */
+  background-color: #eee;
+  padding: 1em;
+  border-radius: 8px; /* Adds rounded corners */
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.CommentList__title {
+  font-size: 1.2rem; /* Slightly larger font size for titles */
+  font-weight: bold;
+  color: #333; /* Dark text for contrast */
+}
+
+.CommentList__body {
+  font-size: 1rem;
+  line-height: 1.5; /* Improves readability of long comments */
+  color: #555; /* Slightly muted text */
+}
+
